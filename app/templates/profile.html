@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block main %}
+    
+    <div id="top">
+        <div id="pic">
+            
+            <img src="{{prop}}" alt="Kim's profile picture">
+        </div>
+        <h1>Kim Charles </h1>
+        <p>@kcharles <br>
+        Jamaica <br>
+        Joined {{dj}}
+        
+        </p>
+    </div>
+    
+    
+    <div id="bottom">
+        <p id="bio">
+            I am an enthusiastic and determined university student.  I love web development and to practice mathematics.  I hope to vastly improve my skills at both.
+        </p>
+        <div class="grid-container">
+          <div class="grid-item">100</div>
+          <div class="grid-item">23</div>
+          <div class="grid-item">5793</div>
+          <div class="grid-item">Posts</div>
+          <div class="grid-item">Followings</div>
+          <div class="grid-item">Followers</div>
+            
+        </div>
+        <button>Follow</button>
+    </div>
+{% endblock %}
